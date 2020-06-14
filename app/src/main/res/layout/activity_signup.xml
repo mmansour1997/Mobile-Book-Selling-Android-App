@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupActivity">
+
+    <EditText
+        android:id="@+id/signupEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="121dp"
+        android:ems="10"
+        android:hint="Enter Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/signupPasswordConfirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupPassword"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint="Confirm Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/signupPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupEmail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="53dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/errorTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupPasswordConfirmation"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="122dp"
+        android:layout_marginTop="27dp"
+        android:text="Passwords Don't Match!"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signupPasswordConfirmation"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:text="Sign Up" />
+</RelativeLayout>

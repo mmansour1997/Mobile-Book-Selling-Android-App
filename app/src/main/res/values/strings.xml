@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Book Exchange</string>
+    <string name="title_activity_sell">sellActivity</string>
+
+<string-array name="spinner_data">
+
+    <item>Fantasy</item>
+    <item>Science fiction</item>
+    <item>Romance</item>
+    <item>Thriller</item>
+    <item>Mystery</item>
+    <item>Horror</item>
+
+</string-array>
+
+    <string-array name="spinner_data_shop">
+
+        <item>None</item>
+        <item>Fantasy</item>
+        <item>Science fiction</item>
+        <item>Romance</item>
+        <item>Thriller</item>
+        <item>Mystery</item>
+        <item>Horror</item>
+
+    </string-array>
+
+</resources>

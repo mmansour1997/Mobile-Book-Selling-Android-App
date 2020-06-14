@@ -1,0 +1,176 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.firebasedb"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:6:5-68
+12-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:6:22-65
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:5:5-67
+13-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:9:5-75
+15-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:9:22-72
+16
+17    <application
+17-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:12:5-48:19
+18        android:name="com.example.firebasedb.BookExchangeApp"
+18-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:13:9-40
+19        android:allowBackup="true"
+19-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9b282167d5edf2ce15b1570bf9b055c0\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:16:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:18:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+27-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:19:9-67
+28        <service
+28-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:20:9-23:47
+29            android:name="com.example.firebasedb.BookExchangeService"
+29-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:21:13-48
+30            android:enabled="true"
+30-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:22:13-35
+31            android:exported="true" />
+31-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:23:13-36
+32
+33        <activity
+33-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:25:9-27:40
+34            android:name="com.example.firebasedb.ChatRoom"
+34-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:26:13-37
+35            android:label="Chatroom" />
+35-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:27:13-37
+36        <activity android:name="com.example.firebasedb.signupActivity" />
+36-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:28:9-52
+36-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:28:19-49
+37        <activity
+37-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:29:9-31:40
+38            android:name="com.example.firebasedb.shopActivity"
+38-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:30:13-41
+39            android:label="Buy Book" />
+39-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:31:13-37
+40        <activity
+40-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:32:9-34:41
+41            android:name="com.example.firebasedb.addItemActivity"
+41-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:33:13-44
+42            android:label="Sell Book" />
+42-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:34:13-38
+43        <activity
+43-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:35:9-37:42
+44            android:name="com.example.firebasedb.sellActivity"
+44-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:36:13-41
+45            android:label="Your Books" />
+45-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:37:13-39
+46        <activity android:name="com.example.firebasedb.MainActivity" />
+46-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:38:9-50
+46-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:38:19-47
+47        <activity android:name="com.example.firebasedb.LoginActivity" >
+47-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:39:9-45:20
+47-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:39:19-48
+48            <intent-filter>
+48-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:40:13-44:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:41:17-69
+49-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:41:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:43:17-77
+51-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:43:27-74
+52            </intent-filter>
+53        </activity>
+54
+55        <service android:name="org.eclipse.paho.android.service.MqttService" />
+55-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:47:9-80
+55-->C:\Users\Ahmad\Desktop\firebaseDB_final\app\src\main\AndroidManifest.xml:47:18-77
+56        <service
+56-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\02e38d1e04d39601f1fc4d4e230895e1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:14:9-18:19
+57            android:name="com.google.firebase.components.ComponentDiscoveryService"
+57-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\02e38d1e04d39601f1fc4d4e230895e1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:14:18-89
+58            android:directBootAware="true"
+58-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\c0b8405c419ae1527bc387c260098990\firebase-common-19.2.0\AndroidManifest.xml:15:13-43
+59            android:exported="false" >
+59-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9209bec148561620729e9a8f50f40b76\firebase-database-19.2.0\AndroidManifest.xml:31:13-37
+60            <meta-data
+60-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\02e38d1e04d39601f1fc4d4e230895e1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:15:13-17:85
+61                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+61-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\02e38d1e04d39601f1fc4d4e230895e1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:16:17-111
+62                android:value="com.google.firebase.components.ComponentRegistrar" />
+62-->[com.google.firebase:firebase-firestore:17.1.2] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\02e38d1e04d39601f1fc4d4e230895e1\jetified-firebase-firestore-17.1.2\AndroidManifest.xml:17:17-82
+63            <meta-data
+63-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9209bec148561620729e9a8f50f40b76\firebase-database-19.2.0\AndroidManifest.xml:32:13-34:85
+64                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+64-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9209bec148561620729e9a8f50f40b76\firebase-database-19.2.0\AndroidManifest.xml:33:17-109
+65                android:value="com.google.firebase.components.ComponentRegistrar" />
+65-->[com.google.firebase:firebase-database:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9209bec148561620729e9a8f50f40b76\firebase-database-19.2.0\AndroidManifest.xml:34:17-82
+66            <meta-data
+66-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:36:13-38:85
+67                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+67-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:37:17-109
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:38:17-82
+69        </service>
+70
+71        <activity
+71-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:24:9-31:50
+72            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+72-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:25:13-85
+73            android:excludeFromRecents="true"
+73-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:26:13-46
+74            android:exported="true"
+74-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:27:13-36
+75            android:launchMode="singleTask"
+75-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:28:13-44
+76            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+76-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:29:13-102
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.firebase:firebase-auth:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\b1f3db2a75cc727737a2407318c71e17\jetified-firebase-auth-17.0.0\AndroidManifest.xml:30:13-72
+78        <activity
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+79            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+80            android:exported="false"
+80-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+81            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+81-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\9aa43e4d859846d255e0c2916968f517\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+82
+83        <provider
+83-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\c0b8405c419ae1527bc387c260098990\firebase-common-19.2.0\AndroidManifest.xml:19:9-23:39
+84            android:name="com.google.firebase.provider.FirebaseInitProvider"
+84-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\c0b8405c419ae1527bc387c260098990\firebase-common-19.2.0\AndroidManifest.xml:20:13-77
+85            android:authorities="com.example.firebasedb.firebaseinitprovider"
+85-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\c0b8405c419ae1527bc387c260098990\firebase-common-19.2.0\AndroidManifest.xml:21:13-72
+86            android:exported="false"
+86-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\c0b8405c419ae1527bc387c260098990\firebase-common-19.2.0\AndroidManifest.xml:22:13-37
+87            android:initOrder="100" />
+87-->[com.google.firebase:firebase-common:19.2.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\c0b8405c419ae1527bc387c260098990\firebase-common-19.2.0\AndroidManifest.xml:23:13-36
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\dbb268e1766b366d86c20df11e290f08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\dbb268e1766b366d86c20df11e290f08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Ahmad\.gradle\caches\transforms-2\files-2.1\dbb268e1766b366d86c20df11e290f08\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+92    </application>
+93
+94</manifest>
